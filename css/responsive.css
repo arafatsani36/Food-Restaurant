@@ -1,0 +1,193 @@
+@media only screen and (min-device-width: 890px) and (max-device-width: 1250px) {
+    header .navbar a {
+        font-size: 1.8rem;
+    }
+    section {
+        padding: 2rem;
+      }
+      .home {
+        min-height: 80vh;
+        
+    }
+    .home .content h3 {
+        font-size: 5rem;
+    }
+    .gallary .box-container .box {
+        height: 30rem; 
+    }
+}
+@media only screen and (min-device-width: 660px) and (max-device-width: 889px) {
+    html {
+        font-size: 55%;
+    }
+    header .navbar a {
+        font-size: 1.8rem;
+    }
+    section {
+        padding: 2rem;
+      }
+      .home {
+        min-height: 70vh;
+        
+    }
+    .home .content h3 {
+        font-size: 6rem;
+    }
+    .home .content p {
+        
+        width: 100%;
+    }
+    .gallary .box-container .box {
+        height: 30rem; 
+    }
+    
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 659px){
+    #nav-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(249, 253, 255);
+        border-top: 0.1rem solid var(--red);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0 );
+        transition: all .2s linear;
+    }
+    header .navbar.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100% );
+    }
+    header .navbar a{
+        margin: 0.5rem;
+        padding: 0.6rem;
+        display: block;
+        border: .2rem solid rgb(237, 235, 235);
+        border-left: .2rem solid red
+    }
+    header .navbar a:hover{
+        background: #e3ecec;
+        
+    }
+    section {
+        padding: 2rem;
+      }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home .content p {
+        width: 100%;
+    }
+    .gallary .box-container .box {
+        height: 30rem; 
+    }
+    
+
+}
+@media only screen and (min-width: 380px) and (max-width: 480px) {
+    header .logo {
+        margin: 0 auto;
+    }
+    #nav-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(249, 253, 255);
+        border-top: 0.1rem solid var(--red);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0 );
+        transition: all .2s linear;
+    }
+    header .navbar.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100% );
+    }
+    header .navbar a{
+        margin: 0.5rem;
+        padding: 0.6rem;
+        display: block;
+        border: .2rem solid rgb(237, 235, 235);
+        border-left: .2rem solid red
+    }
+    header .navbar a:hover{
+        background: #e3ecec;
+        
+    }
+    section {
+        padding: 2rem;
+      }
+      .home {
+        min-height: 80vh;
+        
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home .content p {
+        width: 100%;
+    }
+    .gallary .box-container .box {
+        height: 30rem; 
+    }
+    .oder .row form .cheakebox input{
+        
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    html {
+        font-size: 50%;
+    }
+    header .logo {
+        margin: 0 auto;
+    }
+    #nav-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgb(249, 253, 255);
+        border-top: 0.1rem solid var(--red);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0 );
+        transition: all .2s linear;
+    }
+    header .navbar.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100% );
+    }
+    header .navbar a{
+        margin: 0.5rem;
+        padding: 0.6rem;
+        display: block;
+        border: .2rem solid rgb(237, 235, 235);
+        border-left: .2rem solid red
+    }
+    header .navbar a:hover{
+        background: #e3ecec;
+        
+    }
+    section {
+        padding: 2rem;
+      }
+      .home {
+        min-height: 80vh;
+        
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home .content p {
+        width: 100%;
+    }
+    .gallary .box-container .box {
+        height: 30rem; 
+    }
+    .oder .row form .cheakebox input{
+        width: 100%;
+    }
+}
